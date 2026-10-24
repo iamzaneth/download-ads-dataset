@@ -90,6 +90,10 @@ PARAM_IDS = {
 }
 
 
+class GribMessageCountError(ValueError):
+    """A yearly stream has a missing or repeated message count."""
+
+
 def validate_yearly_file(path: Path, short_name: str, year: int) -> None:
     """Reject incomplete years, duplicate messages, wrong parameters and old grids.
 
@@ -116,7 +120,10 @@ def validate_yearly_file(path: Path, short_name: str, year: int) -> None:
         stream.close()
         del stream
     if message_count != (366 if calendar.isleap(year) else 365) * 8:
-        raise ValueError(f"Missing or duplicate GRIB messages: {path}")
+        raise GribMessageCountError(
+            f"Missing or duplicate GRIB messages: got {message_count}, "
+            f"expected {len(expected)} for {year}: {path}"
+        )
     north, west, south, east = VIETNAM_AREA
     with xr.open_dataset(
         path, engine="cfgrib", backend_kwargs={"indexpath": "", "errors": "raise"}
@@ -162,7 +169,7 @@ def yearly_file_is_valid(path: Path, short_name: str, year: int) -> bool:
         return False
 
 
-def configure_logging(level: str) -> None:
+def configure_logging(level: str, log_file: Path | None = None) -> None:
     """Configure timestamped progress logs for the terminal."""
     # Windows PowerShell may expose stdout as cp1252 even when the source file
     # and messages are UTF-8. Reconfigure it before emitting Vietnamese logs.
@@ -180,8 +187,16 @@ def configure_logging(level: str) -> None:
         )
     )
 
+    for old_handler in LOGGER.handlers:
+        old_handler.close()
     LOGGER.handlers.clear()
     LOGGER.addHandler(handler)
+    if log_file is not None:
+        log_file = resolve_data_root(log_file)
+        log_file.parent.mkdir(parents=True, exist_ok=True)
+        file_handler = logging.FileHandler(log_file, encoding="utf-8")
+        file_handler.setFormatter(handler.formatter)
+        LOGGER.addHandler(file_handler)
     LOGGER.setLevel(level)
     LOGGER.propagate = False
 
@@ -257,6 +272,47 @@ def partial_path(path: Path) -> Path:
     return path.with_name(f"{path.name}.part")
 
 
+def remove_identical_duplicate_messages(path: Path) -> int:
+    """Remove only byte-identical GRIB messages from a temporary download.
+
+    ADS can return an annual stream with repeated messages (e.g. t_model 2019).
+    Conflicting values or metadata are retained for strict validation to reject.
+    The published annual files are never edited here.
+    """
+    import eccodes as ec
+
+    normalized = path.with_name(f"{path.name}.dedup")
+    seen: set[bytes] = set()
+    duplicate_count = 0
+    try:
+        stream = path.open("rb")
+        try:
+            with normalized.open("wb") as destination:
+                while (handle := ec.codes_grib_new_from_file(stream)) is not None:
+                    try:
+                        message = ec.codes_get_message(handle)
+                    finally:
+                        ec.codes_release(handle)
+                    if message in seen:
+                        duplicate_count += 1
+                    else:
+                        seen.add(message)
+                        destination.write(message)
+        finally:
+            stream.close()
+            del stream
+        if duplicate_count:
+            LOGGER.warning(
+                "[NORMALIZE] %s: bỏ %s message trùng hoàn toàn từng byte; "
+                "sẽ kiểm tra lại đầy đủ năm trước khi công bố file.",
+                path, duplicate_count,
+            )
+            normalized.replace(path)
+        return duplicate_count
+    finally:
+        normalized.unlink(missing_ok=True)
+
+
 def download_year(
     client: Any,
     short_name: str,
@@ -309,7 +365,12 @@ def download_year(
                     "ADS response is not a raw GRIB stream. "
                     "Check data_format and the server response."
                 )
-            validate_yearly_file(temporary, short_name, year)
+            try:
+                validate_yearly_file(temporary, short_name, year)
+            except GribMessageCountError:
+                if not remove_identical_duplicate_messages(temporary):
+                    raise
+                validate_yearly_file(temporary, short_name, year)
             temporary.replace(target)
             LOGGER.info(
                 "[%s][DONE] biến=%s | năm=%s | dung lượng=%s | thời gian=%s",
@@ -518,12 +579,25 @@ def run_pipeline(args: argparse.Namespace) -> int:
         )
 
         if should_download:
+            existing_years: set[int] = set()
+            if not args.overwrite:
+                for year, target in zip(years, yearly_files):
+                    if target.is_file():
+                        LOGGER.info("[CHECK] kiểm tra file có sẵn: %s", target)
+                        if yearly_file_is_valid(target, short_name, year):
+                            existing_years.add(year)
+            pending_years = [year for year in years if year not in existing_years]
+            LOGGER.info(
+                "[RESUME] %s | bỏ qua=%s năm hợp lệ | cần tải=%s | các năm cần tải=%s",
+                short_name, len(existing_years), len(pending_years),
+                ", ".join(map(str, pending_years)) or "không có",
+            )
             for year_index, (year, target) in enumerate(
                 zip(years, yearly_files), start=1
             ):
                 request_index = (variable_index - 1) * len(years) + year_index
                 progress_label = f"REQUEST {request_index}/{request_count}"
-                if not args.overwrite and yearly_file_is_valid(target, short_name, year):
+                if year in existing_years:
                     skipped_files += 1
                     LOGGER.info(
                         "[%s][SKIP] biến=%s | năm=%s | dung lượng=%s",
@@ -728,6 +802,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Show the plan without creating directories or contacting ADS.",
     )
     parser.add_argument(
+        "--log-file",
+        type=Path,
+        help="Append logs to a UTF-8 file (relative to project root).",
+    )
+    parser.add_argument(
         "--log-level",
         choices=("DEBUG", "INFO", "WARNING", "ERROR"),
         default="INFO",
@@ -752,8 +831,8 @@ def validate_args(parser: argparse.ArgumentParser, args: argparse.Namespace) -> 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
-    configure_logging(args.log_level)
     validate_args(parser, args)
+    configure_logging(args.log_level, None if args.dry_run else args.log_file)
     try:
         return run_pipeline(args)
     except KeyboardInterrupt:

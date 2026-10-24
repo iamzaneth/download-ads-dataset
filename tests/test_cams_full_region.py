@@ -2,12 +2,14 @@
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import eccodes as ec
 import numpy as np
 import pandas as pd
 
 from src.download_cams_dataset import validate_yearly_file, VIETNAM_AREA, CAMS_MULTI_LEVEL_VARIABLES, PARAM_IDS, download_year
+from src import download_cams_dataset as pipeline
 
 
 def write_year(path, year=2004, *, mainland=False, parameter=165, duplicate=False, missing=False, model_level=None):
@@ -44,6 +46,83 @@ def write_year(path, year=2004, *, mainland=False, parameter=165, duplicate=Fals
 
 
 class FullRegionTests(unittest.TestCase):
+    def test_resume_downloads_only_missing_model_year_and_repairs_identical_duplicates(self):
+        class Client:
+            def __init__(self):
+                self.requests = []
+
+            def retrieve(self, dataset, request, target):
+                self.requests.append(request)
+                path = Path(target)
+                write_year(path, year=2019, parameter=130, model_level=60)
+                with path.open("rb") as stream:
+                    handle = ec.codes_grib_new_from_file(stream)
+                    try:
+                        duplicate = ec.codes_get_message(handle)
+                    finally:
+                        ec.codes_release(handle)
+                del stream
+                with path.open("ab") as destination:
+                    destination.write(duplicate * 157)
+
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            existing = pipeline.yearly_file_path(root, "t_model", 2018)
+            existing.parent.mkdir(parents=True)
+            write_year(existing, year=2018, parameter=130, model_level=60)
+            before = (existing.read_bytes(), existing.stat().st_mtime_ns)
+            client = Client()
+            args = pipeline.build_parser().parse_args([
+                "--data-root", folder, "--variables", "t_model",
+                "--start-year", "2018", "--end-year", "2019", "--max-attempts", "1",
+            ])
+            with patch.object(pipeline, "create_cds_client", return_value=client), self.assertLogs(
+                pipeline.LOGGER, level="INFO"
+            ) as captured:
+                self.assertEqual(pipeline.run_pipeline(args), 0)
+            self.assertEqual(len(client.requests), 1)
+            self.assertEqual(client.requests[0]["date"], ["2019-01-01/2019-12-31"])
+            self.assertTrue(any("các năm cần tải=2019" in line for line in captured.output))
+            self.assertTrue(any("157 message" in line for line in captured.output))
+            repaired = pipeline.yearly_file_path(root, "t_model", 2019)
+            validate_yearly_file(repaired, "t_model", 2019)
+            expected = root / "expected.grib"
+            write_year(expected, year=2019, parameter=130, model_level=60)
+            self.assertEqual(repaired.read_bytes(), expected.read_bytes())
+            merged = pipeline.merged_file_path(root, "t_model", 2018, 2019)
+            self.assertEqual(merged.read_bytes(), before[0] + expected.read_bytes())
+            merged_before = (merged.read_bytes(), merged.stat().st_mtime_ns)
+            repaired_before = (repaired.read_bytes(), repaired.stat().st_mtime_ns)
+            with patch.object(pipeline, "create_cds_client", side_effect=AssertionError("No API")):
+                self.assertEqual(pipeline.run_pipeline(args), 0)
+            self.assertEqual((existing.read_bytes(), existing.stat().st_mtime_ns), before)
+            self.assertEqual((repaired.read_bytes(), repaired.stat().st_mtime_ns), repaired_before)
+            self.assertEqual((merged.read_bytes(), merged.stat().st_mtime_ns), merged_before)
+
+    def test_conflicting_duplicate_download_is_rejected(self):
+        class Client:
+            def retrieve(self, dataset, request, target):
+                path = Path(target)
+                write_year(path, parameter=130, model_level=60)
+                with path.open("rb") as stream:
+                    handle = ec.codes_grib_new_from_file(stream)
+                    try:
+                        ec.codes_set_values(handle, np.full(25 * 23, 2.))
+                        conflict = ec.codes_get_message(handle)
+                    finally:
+                        ec.codes_release(handle)
+                del stream
+                with path.open("ab") as destination:
+                    destination.write(conflict)
+
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "t_model.grib"
+            self.assertEqual(download_year(
+                Client(), "t_model", "temperature", 2004, path,
+                max_attempts=1, retry_backoff_seconds=0, overwrite=False,
+            ), (False, True, 1))
+            self.assertEqual(list(Path(folder).iterdir()), [])
+
     def test_model_download_validates_and_publishes_real_grib(self):
         class Client:
             def retrieve(self, dataset, request, target):

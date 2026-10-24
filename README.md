@@ -54,6 +54,17 @@ Các biến multi level còn phải đúng loại tầng `hybrid` và level `60`
 tầng không được dùng để resume hoặc ghép. Tất cả biến dùng chung phạm vi grid
 và 8 mốc giờ UTC/ngày. File thiếu/sai grid bị từ chối trước khi công bố file năm.
 
+Khi chạy lại cùng lệnh (không có `--overwrite`), script kiểm tra các file có sẵn
+và in `[RESUME]`: số năm được bỏ qua và danh sách chính xác những năm cần tải.
+`[CHECK]` là đọc kiểm tra file trên máy; chỉ `[DOWNLOAD]` mới gửi request ADS.
+File năm hợp lệ không bị tải lại. `--overwrite` mới buộc tải lại toàn bộ năm.
+
+ADS đôi khi trả message trùng trong cùng request năm. Với `t_model` 2019,
+phản hồi đã kiểm tra có 3.077 message, gồm 2.920 mốc giờ và 157 message trùng
+hoàn toàn từng byte trong tháng 8. Script chỉ loại message giống hệt từng byte
+trên file tải tạm, sau đó kiểm tra lại đầy đủ lịch năm, biến, tầng, grid và giá
+trị. Message cùng mốc giờ nhưng khác dữ liệu không được tự chọn hoặc bỏ qua.
+
 ## Theo dõi log trên terminal
 
 Mặc định terminal hiển thị log có timestamp, trạng thái từng biến, tiến độ tổng
@@ -71,6 +82,15 @@ Dùng log chi tiết để xem cả nội dung request và đường dẫn file 
 ```powershell
 python src/download_cams_dataset.py --log-level DEBUG
 ```
+
+Lưu log để có thể kiểm tra lỗi và tiến độ sau khi đóng terminal:
+
+```powershell
+.\.venv\Scripts\python.exe src/download_cams_dataset.py --variables t_model --log-file reports/t_model_resume.log
+```
+
+Log được ghi nối tiếp bằng UTF-8. Lệnh trên tự bỏ qua các năm hợp lệ, tải những
+năm còn thiếu và ghép `t_model_2003_2025_vietnam.grib` khi đủ dữ liệu.
 
 ## Cấu trúc dữ liệu
 
