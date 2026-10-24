@@ -1,0 +1,72 @@
+{
+  "aod550_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789184436708755800,
+    "sha256": "490ff29cf37ec93a55b67096307bfb145ea7e73df8f410e945640163407cfc24"
+  },
+  "co_column_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789190486328606400,
+    "sha256": "dc64343d96ed2a4f5edab076ccc33d3e30c126e2f1fe3c1444719e0c7888cfaa"
+  },
+  "d2m_2003_2025_vietnam.grib": {
+    "size": 39787136,
+    "mtime_ns": 1789166922851573300,
+    "sha256": "fd4d0bd2df0582a73023de97c1ccf87485aedcf56c7deb4ac44926ee813a8e24"
+  },
+  "mslp_2003_2025_vietnam.grib": {
+    "size": 39787136,
+    "mtime_ns": 1789178772547350200,
+    "sha256": "9a44c5bcce4edca4d76bb8ae5b730ad36d5561db0d173ad8866230a600d1542a"
+  },
+  "no2_column_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789195754923788000,
+    "sha256": "8cac778ce94c7ed6c03c631a3e028d15fe10f54974ee8523def80a7bc05863a9"
+  },
+  "o3_column_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789206764718545000,
+    "sha256": "a883196c7fd48df9ba2ee17db9431d5c9e68f1d4fa9d9ef9c9b8e168cc55877c"
+  },
+  "pm10_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789143905607438400,
+    "sha256": "c8b1a7e6d8d54c06da4e0eff1890a9442af8bc5779ad86d5f2896de56132cf72"
+  },
+  "pm1_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789133397446043500,
+    "sha256": "3c2abaf8859bfeb6b959cbc93fc7d9b78c278b61baeb9ba96c642de927929c6a"
+  },
+  "pm2p5_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789138751318670200,
+    "sha256": "24b7c43b551071629ccaaab01e4c46f3678a0492f38e52282641a10efa61bd99"
+  },
+  "so2_column_2003_2025_vietnam.grib": {
+    "size": 56051472,
+    "mtime_ns": 1789201212312139800,
+    "sha256": "e6e08fc723b0cc075818cc517caa336be1dc0b63f70784a9ea9cb8deda782f7a"
+  },
+  "sp_2003_2025_vietnam.grib": {
+    "size": 39787136,
+    "mtime_ns": 1789172629165334300,
+    "sha256": "6efd1701a78ac7e1cbbc033ff945d8d125ce97f3288dfb1feb64b720e54ca9b1"
+  },
+  "t2m_2003_2025_vietnam.grib": {
+    "size": 39787136,
+    "mtime_ns": 1789161321335454600,
+    "sha256": "730c89fc7b117075e4a6837e97eb8a29d70303a7bceae12e7da4cf3c41a1af4d"
+  },
+  "u10_2003_2025_vietnam.grib": {
+    "size": 39919744,
+    "mtime_ns": 1789149332521843800,
+    "sha256": "98fbaa5edca0e5c1772eacf2e25a1b74e848671cf620776b09ccadcb6b0af983"
+  },
+  "v10_2003_2025_vietnam.grib": {
+    "size": 39787136,
+    "mtime_ns": 1789155276192165300,
+    "sha256": "2de22bdf16fefa58435a9dd3c1b9b8cd319c5b5137ef3a5977afff3f78151408"
+  }
+}

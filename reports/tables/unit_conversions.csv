@@ -1,0 +1,18 @@
+variable,source_unit,analysis_unit,conversion
+pm1,kg m**-3,µg/m³,kg/m³ × 1e9
+pm2p5,kg m**-3,µg/m³,kg/m³ × 1e9
+pm10,kg m**-3,µg/m³,kg/m³ × 1e9
+u10,m s**-1,m s**-1,retained metadata unit
+v10,m s**-1,m s**-1,retained metadata unit
+t2m,K,°C,K - 273.15
+d2m,K,°C,K - 273.15
+sp,Pa,hPa,Pa / 100
+mslp,Pa,hPa,Pa / 100
+aod550,~,1,dimensionless optical depth retained
+co_column,kg m**-2,kg m**-2,total column: metadata unit retained; not a surface concentration
+no2_column,kg m**-2,kg m**-2,total column: metadata unit retained; not a surface concentration
+so2_column,kg m**-2,kg m**-2,total column: metadata unit retained; not a surface concentration
+o3_column,kg m**-2,kg m**-2,total column: metadata unit retained; not a surface concentration
+wind_speed,derived,m/s,"hypot(u10, v10)"
+wind_direction,derived,degrees,Meteorological wind direction from north
+relative_humidity,derived,%,"RH = 100 exp[17.62 Td/(243.12 + Td) - 17.62 T/(243.12 + T)], T and Td in degrees Celsius; Magnus saturation vapour pressure over liquid water (WMO Guide No. 8). Approximation, no pressure enhancement correction; no clipping. Formula range checked separately: -45 to 60 degrees Celsius."

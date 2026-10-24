@@ -1,0 +1,26 @@
+{
+  "notebook": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\notebooks\\01_cams_eac4_eda.ipynb",
+  "executed_code_cells": 27,
+  "notebook_image_outputs": 16,
+  "execution_errors": 0,
+  "report_sections": 10,
+  "local_report_links_checked": 45,
+  "available_variables": [
+    "pm1",
+    "pm2p5",
+    "pm10",
+    "u10",
+    "v10",
+    "t2m",
+    "d2m",
+    "sp",
+    "mslp",
+    "aod550",
+    "co_column",
+    "no2_column",
+    "so2_column",
+    "o3_column"
+  ],
+  "missing_variables": [],
+  "html_preview": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\reports\\notebook_preview.html"
+}

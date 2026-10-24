@@ -1,0 +1,5 @@
+section,status
+wind,computed on exactly matching grids and time axes
+relative_humidity,computed on exactly matching grids and time axes
+relationships,"daily area-weighted means; pairwise finite days; descriptive correlations, no causal inference"
+extreme_pm25,pooled finite grid-time P95/P99; strict >; a timestep event means at least one exceeding cell; conditions compare co-located finite grid-time points

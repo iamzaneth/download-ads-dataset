@@ -1,0 +1,19 @@
+{
+  "sha256_unchanged": {
+    "aod550_2003_2025_vietnam.grib": true,
+    "co_column_2003_2025_vietnam.grib": true,
+    "d2m_2003_2025_vietnam.grib": true,
+    "mslp_2003_2025_vietnam.grib": true,
+    "no2_column_2003_2025_vietnam.grib": true,
+    "o3_column_2003_2025_vietnam.grib": true,
+    "pm10_2003_2025_vietnam.grib": true,
+    "pm1_2003_2025_vietnam.grib": true,
+    "pm2p5_2003_2025_vietnam.grib": true,
+    "so2_column_2003_2025_vietnam.grib": true,
+    "sp_2003_2025_vietnam.grib": true,
+    "t2m_2003_2025_vietnam.grib": true,
+    "u10_2003_2025_vietnam.grib": true,
+    "v10_2003_2025_vietnam.grib": true
+  },
+  "raw_sidecars": []
+}
