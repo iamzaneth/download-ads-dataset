@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from contextlib import contextmanager
 from pathlib import Path
 
@@ -29,6 +30,11 @@ def discover_files(data_root: Path, start_year: int, end_year: int, selected=Non
         raise ValueError(f"Unknown downloader variables: {sorted(unknown)}")
     folder = data_root / MERGED_DIR_NAME
     files = sorted(folder.glob("*.grib"))
+    files_by_variable = {}
+    for path in files:
+        match = re.fullmatch(r"(.+)_[0-9]{4}_[0-9]{4}_vietnam\.grib", path.name)
+        if match and match[1] in VARIABLES:
+            files_by_variable.setdefault(match[1], []).append(path)
     used, paths, rows = set(), {}, []
     for name, source in VARIABLES.items():
         row = {"short_name": name, "source_variable_name": source, "status": "missing", "filename": "", "file_size": 0, "notes": ""}
@@ -37,7 +43,7 @@ def discover_files(data_root: Path, start_year: int, end_year: int, selected=Non
             rows.append(row)
             continue
         expected = merged_file_path(data_root, name, start_year, end_year)
-        candidates = [expected] if expected.is_file() else sorted(folder.glob(f"{name}_*_vietnam.grib"))
+        candidates = [expected] if expected.is_file() else files_by_variable.get(name, [])
         if len(candidates) > 1:
             row.update(status="ambiguous", notes="Multiple files: " + ", ".join(p.name for p in candidates))
             used.update(candidates)
@@ -48,7 +54,7 @@ def discover_files(data_root: Path, start_year: int, end_year: int, selected=Non
             row.update(status="available", filename=str(path.resolve()), file_size=path.stat().st_size)
         rows.append(row)
     # Known but excluded files are not mislabeled as unknown extras.
-    known = {p for p in files if any(p.name.startswith(f"{name}_") for name in VARIABLES)}
+    known = {p for variable_files in files_by_variable.values() for p in variable_files}
     extras = pd.DataFrame([{"filename": str(p.resolve()), "file_size": p.stat().st_size, "reason": "unselected/alternate file" if p in known else "not declared in VARIABLES"} for p in files if p not in used], columns=["filename", "file_size", "reason"])
     return paths, pd.DataFrame(rows), extras
 

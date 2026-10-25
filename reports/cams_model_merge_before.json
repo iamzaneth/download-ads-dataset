@@ -1,0 +1,1156 @@
+{
+  "created_at_utc": "2026-10-25T14:29:55.194077+00:00",
+  "data_root": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4",
+  "files": [
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2003_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792848920000000000,
+      "sha256": "115e43795fe5ce34858ba14979761ddd0fdee9a16da1d9c0438d01635d6cc5c0",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2004_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792849201000000000,
+      "sha256": "10a2c62e087cc541ba25a7f926a2b728835ef88f22fc20f840c76a3e46e02be0",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2006_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792850579000000000,
+      "sha256": "42eda8f26efaedced031f92baa5fae5d2ab20cefa6fcc26005b991baea877e04",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2007_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792850869000000000,
+      "sha256": "811335a4bb56dc4f2106c1279ee406faadb000bbaba190ea4831cc178a4812a1",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2008_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792851156000000000,
+      "sha256": "e39865940b005d4a1c205b05e99a459a4175283e366c437fbd86e003c5713cdb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2009_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792851442000000000,
+      "sha256": "4338289ad96529889964c1b672b4061f2288bb3dc39c595b2465b9cff17bea82",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2010_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792851720000000000,
+      "sha256": "faf4a7d3c6f86bfc9842260b7d4f83bc9e26e0102ebd127b2c460c584bd6f2e9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2011_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792851996000000000,
+      "sha256": "e6a42437bbe081afcf3cda333fc62e54564f244f19b9aa907fd414c5e8841a1b",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2012_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792852271000000000,
+      "sha256": "4442160ddd4fb162cb9c700b7eaa4e840635414f4ee3f35893f6b0942912eb05",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2013_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792852545000000000,
+      "sha256": "de4e6443aa5892ffa10afa916665d3e6b3a1e1e58b909d979f2b046197b6000e",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2014_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792852941000000000,
+      "sha256": "8dcdd6147d516fbbf508e5a8d8f397634c0b66c3dcc22ae758db356707a81123",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2015_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792853214000000000,
+      "sha256": "cc26224e0b126c78dc407e33bedd6986cd50f79230e0300b75d2f187101e37c4",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2016_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792853493000000000,
+      "sha256": "6657c8c62d276923bf35aa043c704e1d90637592798fd732bf432116b5b8679c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2017_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792853768000000000,
+      "sha256": "01fc5177549b914cd2c40dc4c656f96b3e84dd2603cfbafbce573172b44181ab",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2018_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792854042000000000,
+      "sha256": "4edaaa58195859ef494c63ae3de0f35e1775aad118804cf7bdb6fbec95883911",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2019_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792854318000000000,
+      "sha256": "e39ebb4e1fdd84fcfb6dae6aec36ffd3edbcccd938958fa1f1bdee8e850c17ee",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2020_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792854593000000000,
+      "sha256": "c20489373ae982a91cf04e6d17155bd330f277f5f6422424b5d56b4ca02a2a0a",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2021_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792854868000000000,
+      "sha256": "ff8330c4e45ac5a8fae6e0e8ce92248ed28b4fc979700c7b1674a43a7c74a6e9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2022_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792855151000000000,
+      "sha256": "1ebd2bbf5fef917d6550784d8109fcd2165e4293fa4549f2665ed72b55b1788f",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2023_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792855425000000000,
+      "sha256": "695582c8a90aea65774eb185e5715d5cc420c429b84a23f6fb3fc76e17c6746d",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2024_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792855825000000000,
+      "sha256": "dc4b2b757a14283ac850479e7a8c2e852865c7b217c64c53cb02277f80f77051",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\co\\co_2025_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792856101000000000,
+      "sha256": "e69e6dfec1d300ef10a2ceb63b3ebb048cc2d4854546f96f3744f8e31d8e3f85",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2003_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792856620000000000,
+      "sha256": "580c1181e451d33f00b66c7f7f905991961940880b0fd3dfa8ee8989f525b07a",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2004_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792856894000000000,
+      "sha256": "fb372881fe3d6432c485f9a441b87254392be03cfcf8e5731130e25fd804705e",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2005_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792857168000000000,
+      "sha256": "6925849206fd50073c223da35c18b9980da881416434be0c98f3dbed72a298e2",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2006_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792857442000000000,
+      "sha256": "4d84d992f4917e756d0d7c4ba4181365d2cf0cb1a0ec63a9442c94d14be2933f",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2007_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792857837000000000,
+      "sha256": "c95032f22677bf80c01a0bfcf39473a7032e373e303272367e61b23cdc37bfbb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2008_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792858112000000000,
+      "sha256": "cc90c71163ce1a3969e81fec47c16af1da12916e9b6e7538470f54089389c025",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2009_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792858398000000000,
+      "sha256": "ca473229d705ced493b4b4a6e1ad40517d31ce53176417308a68be0f33d7075d",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2010_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792858678000000000,
+      "sha256": "3eb9e71d0c966ef457bcaa0d6132d4e8de4a0ece9d66689073aa221cec26fbee",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2011_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792858966000000000,
+      "sha256": "1bfbdb17f9728b2bc197538c6216eb42aa0c3d834424df626709a20de966e9fd",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2012_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792859247000000000,
+      "sha256": "e075c523b9534fe5e1efe786cd0be9c75832166c1a0d473d4f043da5c940699c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2013_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792859524000000000,
+      "sha256": "9b191ca36ac26f5158e008cd235ff014872df793378abc6dc2deb51e57d5d885",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2014_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792859810000000000,
+      "sha256": "de4063a3a8f6936005f094c46d06bbd42274e16656669e71798efe813e1e9170",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2015_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792860093000000000,
+      "sha256": "8309e9ef1fe4b3ed76adb006642678ba19951fa458c12ce966ed6d28cef107a2",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2016_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792860368000000000,
+      "sha256": "2617df89372c8a493191abb7653eeb7465f96e0be39234f9cfbe42b9589b9f3c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2017_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792860647000000000,
+      "sha256": "1bfa5d37fcde4fbf8079da69a1882b3640774960d93348105a6ff87f3382c1cb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2018_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792861407000000000,
+      "sha256": "d4adb5cd1e6127b3b9800d4b208b50d5edbab7623cb262dac256ba721765cf8a",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2019_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792861682000000000,
+      "sha256": "5a17b4e31bd377bd75e0162a8d525774d20818db03b63898d5aac10556b887c8",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2020_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792861963000000000,
+      "sha256": "ef7bb468dcad5ec92c7abe977b55a684d17755c42d07a55903a811ec403de5ad",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2021_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792862243000000000,
+      "sha256": "823f9e6bf79c003c0b5573b2abba434518df2af1dd5ac6bc4ccdd4e4e51bbdcc",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2022_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792862772000000000,
+      "sha256": "6133382040e228132a5c7b7cd50635c4ca3ba9603a3e0cf65163c534afa01f49",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2023_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792863047000000000,
+      "sha256": "4c81e9dde87dc790e712f3fa98949d9584aed514f3391b6aa06c21ec11527de0",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2024_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792863321000000000,
+      "sha256": "8c63b45032764343ca98de6cee1ddcb794c0accb810d5ec10f25d00fafab50ff",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\no2\\no2_2025_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792863596000000000,
+      "sha256": "a6442896f13e9b654862d227429d5274229d1ecba9ba7855b6695a9c3600b630",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2003_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792835386521388300,
+      "sha256": "9608d2642990c1754e45b9ee8ad6051b3bde10622e213d7421bc072199d44c5c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2004_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792835678539543500,
+      "sha256": "ffa1724d250aa50942c4047280e6b69fcf9cc9f2b564a3e012acd09af49d8bd9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2005_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792835940851278900,
+      "sha256": "2e2deb3768fc4f0e5394f181d1f3f2b6ad4d9ee697ef5275f202318df2c0c959",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2006_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792836343925288600,
+      "sha256": "30d40a10295da1ef7826e7cb455388c404ef6f1257fd12525791dc6b0c1552c0",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2007_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792836995282705700,
+      "sha256": "b42c095e5762e0d3affd430dccc4382bcc7cfa1f6b50b557c8a4b578e54115cb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2008_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792837275604785900,
+      "sha256": "29593b08a09ded74b33637dc9830a290e04fd5be5ec9f3a11c78c1fc14994d14",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2009_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792837674307168700,
+      "sha256": "ddb3601f84f918f4737aa2b0170ae3640e08e87e34ea7692b68a772831398e93",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2010_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792838082660125500,
+      "sha256": "fb2e1b5f154d5635d032696b3cd27c936722d7668a1a6920f196c25cc4e254f2",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2011_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792838480928427100,
+      "sha256": "c1897910923a0b1dbeb0661eb84e15cfcffeaa13611b831ebdcd5413f4586663",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2012_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792838889307650800,
+      "sha256": "4dab50780882801cb227e113d6297eda0f453e7538ac6beadeb7c490f8a21410",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2013_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792839170317941200,
+      "sha256": "58b8fa9a3fe2200d4c229ce27ffd4d6e42509dc7a189a2d00fc9bf9b227c20cd",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2014_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792839686319200900,
+      "sha256": "f250daf82ea6e356a16317db3e9d06288845600ab7dda2df3519e638bc52028c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2015_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792840689049172300,
+      "sha256": "bbc7da1fb5341558e7d4c2b8654e36de40646b7c31abf1ceeb54a361444dff3c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2016_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792841088876969100,
+      "sha256": "6a00b21ef138140234013dbde89c8ef00204eba9c9937d64a42b120a99687561",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2017_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792841614221881300,
+      "sha256": "e664d4fd327591713d739904cb5bbdd8b8e8ff37232e3495fb0813d8111fcb7d",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2018_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792841890438804100,
+      "sha256": "9505a0429f76c3fc9202eb7cc71f911b095f7c329334bf63eb5327ca8cc526b0",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2019_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792842166466125700,
+      "sha256": "d6eb178a84f5f780655c5593bd20a30c0fc515d5a8416de661a5518ad3e52efc",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2020_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792842445827631100,
+      "sha256": "02a1de4eb0ea5fa4fc417eedb6c3d0127c94e0ab367eaac30e583dc2cd145fae",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2021_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792842720106871600,
+      "sha256": "e1c1ea990b4d487c17dabd385d537cea65f4dfa766512a2acf3804a53c74f90c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2022_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792842995547379200,
+      "sha256": "96553ee66457ca7f607753e8b56f1c4da9d05f9e4429b6a30c00677fd46e25fc",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2023_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792843270613228000,
+      "sha256": "2eec10874e692eca97ba0abe95cbf30a6a92976950a92ce3a6a2fbc9627bbd12",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2024_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792843664917086200,
+      "sha256": "6da75d792b72bf8e8553f7826dae1d1d0749ea7f72a32bdc2a473c3dd84eb332",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\o3\\o3_2025_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792844064434174500,
+      "sha256": "74c9336f77eebfc2e36fc209df18e7f049d7830d39d220f7e6f9545b58984869",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2003_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792851881321715900,
+      "sha256": "adedc7fa4d7311c964ae7f8647b6b241ed7516b8c46245c9323312ca6dc2f525",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2004_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792852158365400600,
+      "sha256": "cf02f5f9438edd9fe4eb43a64f4df41d31d9ed399caeca80ce4754a783e21f76",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2005_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792852434929749800,
+      "sha256": "c5d83b4e4fba830504f71758bd9cf4dbd0f500683c0794575462d8b1f46c72bd",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2006_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792852711164964500,
+      "sha256": "54efd330691a66ffa82d8e72d6b29b36ff3b1c1cc051bd232ac4caec8629358b",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2007_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792853106639070000,
+      "sha256": "925e7eb69c3f20cbc61e91dc461cdac6e06acb1848a0c12d6dc147e1a5ff2030",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2008_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792853381868936500,
+      "sha256": "07f4857e89d6f213933c94d6fbb4e56f11288fc37dd4d77a47d1f48dc377e946",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2009_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792853658918813300,
+      "sha256": "d4d55304b15fbb5d34d69cfd6c103607ddf8cd3448f9d909dc7b2a32a89b1517",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2010_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792854058565447100,
+      "sha256": "1f593e1fd40e3ee57fea4041f10f64c0e334f8e0bf144be3592c6cd5c61f9fbb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2011_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792854336637722000,
+      "sha256": "0220c094f3ba21577f7cc4896cb2725cc2ed7f6b90c6d612906d4e657842b96f",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2012_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792854615567007100,
+      "sha256": "b7b26b9a1b12db91074852988335d8e1bc157353afe660ce7b339491901cb284",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2013_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792855013488815000,
+      "sha256": "f313521e38ddb92333cbbda688638718ef5bff48b3faf7964b0705138e87faee",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2014_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792855301868047700,
+      "sha256": "2b88b42f3fd7cc212b286ba8057632d37c8ac830852307c2b0e8bd2e158f1b8f",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2015_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792855580851036300,
+      "sha256": "6200747c745008d7f97d8c2b532b27c86c7e84b75ef4eae3b4fd500e3675ae61",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2016_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792855862388860400,
+      "sha256": "0929045f167216b901bb8e4ac08efbe02a2fded36b86a0b69b5a447b3d78b8c4",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2017_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792856141518623900,
+      "sha256": "5dd02f41895b6b398bd39b6ba845813cd7c8ebff7b6d67cda50aa2b2d2c19548",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2018_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792856786689659800,
+      "sha256": "f2fc2b7d82826f9a1285e20ac2edf7865ebda3e075c6d751daa39b376d247f5a",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2019_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792857059888497100,
+      "sha256": "b45fca86029d34929fc4ddc4f4559985e74907b3b676c904f6ccf029d5065c6c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2020_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792857348352293200,
+      "sha256": "29613af413e4ad2fb59d9711ccc9e73199194b0cc231a22fd53611a092c686ae",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2021_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792857634401127200,
+      "sha256": "565c65c5cab85c44de26605aac72b6cec0926b1fd21a12b1fe8f5fca9ff9d501",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2022_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792858036392180400,
+      "sha256": "6b336c2d3bc45a38c283c344b037429139150d503446c7255bd432cc90ccc1ce",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2023_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792858309126034900,
+      "sha256": "28900c31b5b75ef9f7b7b13a0853f48b396a5bcbba91ede452e5542081a12cd9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2024_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792858582231432000,
+      "sha256": "7997f44a5033cb50829e75c21cf676fc6ec463c4cfee8fd9a060fdc438e1d043",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\q_model\\q_model_2025_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792858856600913800,
+      "sha256": "7a80832d54e90099ec399997236efdf71cbe1d1fa8cc2bc0c112f4c6a6983a85",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2003_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792863881000000000,
+      "sha256": "1517659cfbb1571c3d750152ec794f8d5316f9d41a1fd2d554e9ef5b68ac8344",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2004_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792864167000000000,
+      "sha256": "29c43a0961efaf4eff2ebc8a080037e743033950659e5d1ed68a71b913e44267",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2005_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792864456000000000,
+      "sha256": "8e4cc6d7eca64890e29fa0e0231b285619864f808bbe1ea6922f95b50d0fc786",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2006_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792864864000000000,
+      "sha256": "777481dadbc481f2d065c00e91f55b2505c6f190f3fde8b97e725e641d33079e",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2007_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792865259000000000,
+      "sha256": "e13989c51fe57cf9aa4d74928b1e532b7ab5d59ee63d3ae83a85b8907888e3b9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2008_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792865539000000000,
+      "sha256": "7b8dbd1a48306b11dd472ea3cf4ac0e206af13aeaa3906ced7a8c5cd1c646a36",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2009_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792865816000000000,
+      "sha256": "af6d693240997564ed0dfe3884c3dba1660c5eb2e12aba0b441039d29107117d",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2010_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792866217000000000,
+      "sha256": "714439a7c932801f3fb14800469875c2d82e1199424a794c21c36502725891e5",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2011_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792866503000000000,
+      "sha256": "3f9f97b5f996f21f3eb13764e6c5a0812cab758da97e1f2bfc152814b8d91e17",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2012_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792866906000000000,
+      "sha256": "da67c062d523460090fd16121f6d947e04d72c83c284b6059263a333650cd4d3",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2013_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792867190000000000,
+      "sha256": "8e4679692c456957eea6cc11d0ee17cd80a4b88fd59c5fca263a40e3d28982c9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2014_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792869892000000000,
+      "sha256": "9dc63cdb751f475a3270f76b29ddae3e9a2c450da2ec95f8435f61610445a0ff",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2015_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792870181000000000,
+      "sha256": "3fdfd8482e0aadba9561de35b9c40fdc6fef4aef2e7ac1e3ed4e2b93c1aaa9b9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2016_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792870577000000000,
+      "sha256": "9a24301e8ad9a1070da32cc2d9997f7ce22d02ea522493a2ca7fe51dd4b55796",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2017_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792870862000000000,
+      "sha256": "46d5d615949a469aad0511fe8072800d8381d6585411e1cd2f9b4b40ddb90dea",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2018_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792871148000000000,
+      "sha256": "702090a1bc7b003b9fd33b38e7ed7c1794a586e6528a89f5c41441fd28c41cf2",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2019_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792871422000000000,
+      "sha256": "0902fad00525090148eba21a489007389addffe639b36d51a7d4abe299731d32",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2020_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792871704000000000,
+      "sha256": "ab978e87a4f0fdc313f5cda38bb9ef58ad7ef8d6cf281714f43b3079946bb0cc",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2021_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792871985000000000,
+      "sha256": "8ee11e762868cb2bd6f3ddc543f81865b9b1d17a8a0d189134533cdc04cf0368",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2022_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792872382000000000,
+      "sha256": "fb47916dbd79a9bbf363bf83d6f8ff3ddd7a770299e1f23c1bef47bf056715ae",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2023_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792872786000000000,
+      "sha256": "c124ae55a1057acf690c33e0cc7351d50cb3504f5a7231f515db40e4ffa6be8d",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2024_vietnam.grib",
+      "bytes": 7053552,
+      "mtime_ns": 1792873065000000000,
+      "sha256": "fb75eaba59e4b30023ff93679c02a8f18723a19de0e3adecefd5440ef2f72ba4",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\so2\\so2_2025_vietnam.grib",
+      "bytes": 7034280,
+      "mtime_ns": 1792873351000000000,
+      "sha256": "fd5c469884ea789b41ef83b9e407852ef16676a88ced9c8d3f29c04383804694",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2003_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792844338570801500,
+      "sha256": "fde4e282c28d633464018575f9c4a7b27197ba408039ef130f769396946d3e62",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2004_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792844614866101900,
+      "sha256": "a64023215685194a42adac1aaac0cd2354acc21374d4f2c423bbd56ceca420cd",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2005_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792845009774467500,
+      "sha256": "6078eb708eb1cd56cea7a1d6cce64cc81834b420b19923bc9ddc2d71e57d440c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2006_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792845286404698200,
+      "sha256": "32baf1c8d0ef81eab0a295ee9daf3702a7cd38714b6c48cef671ef4c24974a51",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2007_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792845803396267000,
+      "sha256": "5239c8c7a56425a1e900f450058f40c2f7c3e36a0a0e19086d71eb2a220cc0fe",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2008_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792846082673861400,
+      "sha256": "5e886c4f0f24a507ed8279a31c07ffaf1daeca2d1676e8cbe2a6e13a993c0349",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2009_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792846356735710400,
+      "sha256": "ceccae1607b9701f140362b0b8099d43a60d4a65d6f661abd5091eb174c5043d",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2010_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792846631007644300,
+      "sha256": "d3db4b0e40d977954b4e159622bec7044f81d20e635ef507d1fbb7f1d640f5b9",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2011_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792846923575102600,
+      "sha256": "19f383ba79b8d33b0d739802c37733dcde5d9a6e10294798cdbb6399516e8f4f",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2012_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792847326375272400,
+      "sha256": "dfa9eda58c77449b2a430c53cf68641136d17d593930ca53a2363852db3470ed",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2013_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792847842069205100,
+      "sha256": "a26b4934a05e967819fdc34a9ac39e6034d221a631df176648b48f33a790872a",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2014_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792848116388504900,
+      "sha256": "ca7e65954bbbebce533a9c2917fbd937cc150374ed60f5cd4b5bd2cbe0e3f6cf",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2015_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792848392550284200,
+      "sha256": "f7d8044ec068bdcfebefed3e39ab77c90880f4b9825a750c78b2116cf31b840c",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2016_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792848665973795800,
+      "sha256": "843f737148ce433d701e4b96aad5c8ebd164696476cdf57e15c8df32f0593174",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2017_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792848940833632700,
+      "sha256": "8d90d315489780ec33f19134a7aaf460c1a9aad94a3e4394d0a3530cd4990919",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2018_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792849213715623600,
+      "sha256": "3ebafb840537213814103bd235cde92da8f54dbaab5b58056302f68d242c7b1e",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2019_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792861618722933600,
+      "sha256": "a816e32b5da24d40b15c22b68fce329e88ae1fac5c8d7e927bead6d8fc53b869",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2020_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792850102162820100,
+      "sha256": "808884d766ff47f44691e53fec893ccd660baea4f2b385aeb9832d4ce5226ff5",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2021_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792850374852740300,
+      "sha256": "2b2bebd598033943e0ac0dc8d0c11bb028792cfc1f67e06c452992a70f5eaa2f",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2022_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792850770178620900,
+      "sha256": "efab2a557e01ac74e8b6ae7e4cfe7c4d160a3755aac63251b73c76e2ac2a6b2f",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2023_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792851047649284500,
+      "sha256": "0db2c92d9484eaa0e70df0f134a4e74e1dada41542893f41ee7b2472ccb44edb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2024_vietnam.grib",
+      "bytes": 5369952,
+      "mtime_ns": 1792851326966556400,
+      "sha256": "edd8454037da8ecb18a86135717224c9dd4567e5ca837f6cbd34033b021183d3",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\yearly\\t_model\\t_model_2025_vietnam.grib",
+      "bytes": 5355280,
+      "mtime_ns": 1792851604183041400,
+      "sha256": "68b7531a53a39af8a20ee981e94939d76a4050b705c7de6938094ba80a7cb2bb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\aod550_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763728174570300,
+      "sha256": "784b9768e7c9aadc47df7cf49b9be8d429eb22e66ac943b1edcdb4e1d67659fd",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\co_column_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763728579555600,
+      "sha256": "077ed6a50f80d040393f5e488690780717236b99bb5cde560e98fb942b396adf",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\d2m_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763726933443100,
+      "sha256": "1c12419603fafc1a2f840812c68cf285da3962b0a35d3d2579ddca0415502635",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\mslp_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763727765293100,
+      "sha256": "192c9a02cdf9f68f45b5e5f7b65625e4c5efcb2f9608d1c62dcf3b22acb278a0",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\no2_2003_2025_vietnam.grib",
+      "bytes": 161904072,
+      "mtime_ns": 1792863601000000000,
+      "sha256": "6d31e48716f2625aa6db16fddb960155b147472e2a809941017312ffeead1c22",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\no2_column_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763728989903200,
+      "sha256": "e493ac5be09ad10a819abfc39c9560e8451689c55603e08b9fe9f86d6aa1cae3",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\o3_2003_2025_vietnam.grib",
+      "bytes": 161904072,
+      "mtime_ns": 1792844069414608700,
+      "sha256": "e9f6eedff92842e95387c5b5c6db45e443cff8b26f6fca117d9fa80681e3708b",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\o3_column_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763729809825000,
+      "sha256": "5de914741055ee13e6dce74738c9d2c51608e3a453ba3ea67fc8222b65541803",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\pm10_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763725155342200,
+      "sha256": "24697fdaa1d0ebcfb430e095bd057f61c578d24403f424462f4641a0aadf01c1",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\pm1_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763724325737300,
+      "sha256": "99c2213ca17a42a5b66b179203e8a84aee00bd6645b1ed516e0e5397574c8d16",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\pm2p5_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763724742304500,
+      "sha256": "a69dc93d25d08f310f30f24f8cea2921050ea8791956dec2e6d895be47efb46a",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\q_model_2003_2025_vietnam.grib",
+      "bytes": 123259472,
+      "mtime_ns": 1792858860658123200,
+      "sha256": "45de59260d3af49f0ae89b981beb7fa6238ba0a3d41a724354d51d0873d53654",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\so2_2003_2025_vietnam.grib",
+      "bytes": 161904072,
+      "mtime_ns": 1792873356000000000,
+      "sha256": "0c1bd9c4f879a7f2f3376c7b3cb510aedd0ce89a264b3b5d5eae8135351b7997",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\so2_column_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763729393722000,
+      "sha256": "fa4dd61a20daf9fb928cda422c53fcb78e1e097f568cab1b6626fef2d1ac1505",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\sp_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763727356441500,
+      "sha256": "dd3b797218443f3b27952af04a30c5974475067a447324f2cb7c8101bd2e8fbb",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\t2m_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763726430930300,
+      "sha256": "5870ba7bf4c24c88eb140d4067832be2fdd2ee085b93d783d03e2d1d9d04ba64",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\t_model_2003_2025_vietnam.grib",
+      "bytes": 123259472,
+      "mtime_ns": 1792861622668950700,
+      "sha256": "0bf9fd3bb514d58b1792c5f60172df4f426f1d705961a961d775558e2886db96",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\u10_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763725560632400,
+      "sha256": "dd6f246686b2b288b655ab44ff7ebd49bcd97ee16b74a068768d3797fa5e04fc",
+      "grib_envelope": true
+    },
+    {
+      "path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\v10_2003_2025_vietnam.grib",
+      "bytes": 123125056,
+      "mtime_ns": 1790763725969415700,
+      "sha256": "c10c393d1350802959407adcc06bf72e60472c48fdab1913d9238b256e99e03a",
+      "grib_envelope": true
+    }
+  ],
+  "variables": {
+    "co": {
+      "yearly_count": 22,
+      "missing_years": [
+        2005
+      ],
+      "merged_path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\co_2003_2025_vietnam.grib",
+      "merged_exists": false,
+      "concatenated_yearly_sha256": "123865a5159f01f03c14cf2da10694efbc0d048915a7151ee8360e63c07df303",
+      "merged_sha256": null,
+      "merged_matches_yearly": false
+    },
+    "no2": {
+      "yearly_count": 23,
+      "missing_years": [],
+      "merged_path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\no2_2003_2025_vietnam.grib",
+      "merged_exists": true,
+      "concatenated_yearly_sha256": "6d31e48716f2625aa6db16fddb960155b147472e2a809941017312ffeead1c22",
+      "merged_sha256": "6d31e48716f2625aa6db16fddb960155b147472e2a809941017312ffeead1c22",
+      "merged_matches_yearly": true
+    },
+    "so2": {
+      "yearly_count": 23,
+      "missing_years": [],
+      "merged_path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\so2_2003_2025_vietnam.grib",
+      "merged_exists": true,
+      "concatenated_yearly_sha256": "0c1bd9c4f879a7f2f3376c7b3cb510aedd0ce89a264b3b5d5eae8135351b7997",
+      "merged_sha256": "0c1bd9c4f879a7f2f3376c7b3cb510aedd0ce89a264b3b5d5eae8135351b7997",
+      "merged_matches_yearly": true
+    },
+    "o3": {
+      "yearly_count": 23,
+      "missing_years": [],
+      "merged_path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\o3_2003_2025_vietnam.grib",
+      "merged_exists": true,
+      "concatenated_yearly_sha256": "e9f6eedff92842e95387c5b5c6db45e443cff8b26f6fca117d9fa80681e3708b",
+      "merged_sha256": "e9f6eedff92842e95387c5b5c6db45e443cff8b26f6fca117d9fa80681e3708b",
+      "merged_matches_yearly": true
+    },
+    "t_model": {
+      "yearly_count": 23,
+      "missing_years": [],
+      "merged_path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\t_model_2003_2025_vietnam.grib",
+      "merged_exists": true,
+      "concatenated_yearly_sha256": "0bf9fd3bb514d58b1792c5f60172df4f426f1d705961a961d775558e2886db96",
+      "merged_sha256": "0bf9fd3bb514d58b1792c5f60172df4f426f1d705961a961d775558e2886db96",
+      "merged_matches_yearly": true
+    },
+    "q_model": {
+      "yearly_count": 23,
+      "missing_years": [],
+      "merged_path": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\q_model_2003_2025_vietnam.grib",
+      "merged_exists": true,
+      "concatenated_yearly_sha256": "45de59260d3af49f0ae89b981beb7fa6238ba0a3d41a724354d51d0873d53654",
+      "merged_sha256": "45de59260d3af49f0ae89b981beb7fa6238ba0a3d41a724354d51d0873d53654",
+      "merged_matches_yearly": true
+    }
+  }
+}

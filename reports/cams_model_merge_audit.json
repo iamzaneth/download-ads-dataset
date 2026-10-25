@@ -1,0 +1,108 @@
+{
+  "checked_at_utc": "2026-10-25T14:41:20.312385+00:00",
+  "data_root": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4",
+  "initial_problem": {
+    "variable": "co",
+    "missing_years": [
+      2005
+    ],
+    "existing_other_model_merged_files": 5
+  },
+  "repair": {
+    "downloaded_variable": "co",
+    "downloaded_year": 2005,
+    "identical_duplicate_messages_removed": 239,
+    "new_merged_file": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\co_2003_2025_vietnam.grib",
+    "download_log": "reports/co_2005_resume.log",
+    "merge_log": "reports/co_resume.log"
+  },
+  "protection": {
+    "snapshot": "reports\\cams_model_merge_before.json",
+    "verified_existing_files": 156,
+    "unchanged_sha256_size_mtime": true,
+    "changed_files": []
+  },
+  "variables": {
+    "co": {
+      "yearly_files": 23,
+      "missing_years": [],
+      "merged_file": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\co_2003_2025_vietnam.grib",
+      "merged_bytes": 161904072,
+      "merged_sha256": "e7f9f7fd9e500efd8a0b75eeea8fbd115df742ca31442af374d1ab29583f620e",
+      "matches_chronological_yearly_sha256": true,
+      "expected_native_3hour_messages": 67208
+    },
+    "no2": {
+      "yearly_files": 23,
+      "missing_years": [],
+      "merged_file": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\no2_2003_2025_vietnam.grib",
+      "merged_bytes": 161904072,
+      "merged_sha256": "6d31e48716f2625aa6db16fddb960155b147472e2a809941017312ffeead1c22",
+      "matches_chronological_yearly_sha256": true,
+      "expected_native_3hour_messages": 67208
+    },
+    "so2": {
+      "yearly_files": 23,
+      "missing_years": [],
+      "merged_file": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\so2_2003_2025_vietnam.grib",
+      "merged_bytes": 161904072,
+      "merged_sha256": "0c1bd9c4f879a7f2f3376c7b3cb510aedd0ce89a264b3b5d5eae8135351b7997",
+      "matches_chronological_yearly_sha256": true,
+      "expected_native_3hour_messages": 67208
+    },
+    "o3": {
+      "yearly_files": 23,
+      "missing_years": [],
+      "merged_file": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\o3_2003_2025_vietnam.grib",
+      "merged_bytes": 161904072,
+      "merged_sha256": "e9f6eedff92842e95387c5b5c6db45e443cff8b26f6fca117d9fa80681e3708b",
+      "matches_chronological_yearly_sha256": true,
+      "expected_native_3hour_messages": 67208
+    },
+    "t_model": {
+      "yearly_files": 23,
+      "missing_years": [],
+      "merged_file": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\t_model_2003_2025_vietnam.grib",
+      "merged_bytes": 123259472,
+      "merged_sha256": "0bf9fd3bb514d58b1792c5f60172df4f426f1d705961a961d775558e2886db96",
+      "matches_chronological_yearly_sha256": true,
+      "expected_native_3hour_messages": 67208
+    },
+    "q_model": {
+      "yearly_files": 23,
+      "missing_years": [],
+      "merged_file": "D:\\Data\\Learning\\TLCN\\Code\\test_data\\data\\CAMS\\EAC4\\merged\\q_model_2003_2025_vietnam.grib",
+      "merged_bytes": 123259472,
+      "merged_sha256": "45de59260d3af49f0ae89b981beb7fa6238ba0a3d41a724354d51d0873d53654",
+      "matches_chronological_yearly_sha256": true,
+      "expected_native_3hour_messages": 67208
+    }
+  },
+  "eda": {
+    "available_variables": 20,
+    "distinct_merged_files": 20,
+    "missing_variables": [],
+    "column_substitution_bug_fixed": true
+  },
+  "strict_annual_validation": {
+    "co": "passed: 22 existing years plus downloaded 2005",
+    "other_five": "passed: all 115 annual files; existing 5 merged files unchanged",
+    "log": "reports/cams_existing_model_merge_check.log",
+    "status": "passed",
+    "validated_annual_files": 138,
+    "checks": [
+      "GRIB message counts",
+      "parameter ID",
+      "hybrid model level 60",
+      "complete native 3-hour UTC schedule",
+      "analysis step zero",
+      "valid_time equals time",
+      "full 25x23 grid: 6-24N, 102-118.5E at 0.75 degrees",
+      "all grid values finite"
+    ]
+  },
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m unittest tests.test_eda -q",
+    "passed": 16
+  }
+}

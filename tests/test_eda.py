@@ -128,6 +128,24 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(len(EDAConfig().expected_time), 67208)
         self.assertGreater(len(EDAConfig().expected_time), 65536)
 
+    def test_discovery_does_not_substitute_columns_for_missing_model_variables(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            merged = root / MERGED_DIR_NAME
+            merged.mkdir(parents=True)
+            for name in ("co", "no2", "so2", "o3"):
+                with self.subTest(variable=name):
+                    column = merged / f"{name}_column_2003_2025_vietnam.grib"
+                    column.touch()
+                    paths, inventory, _ = discover_files(root, 2003, 2025)
+                    self.assertNotIn(name, paths)
+                    self.assertEqual(paths[f"{name}_column"], column)
+                    self.assertEqual(inventory.set_index("short_name").loc[name, "status"], "missing")
+                    alternate = merged / f"{name}_2004_2024_vietnam.grib"
+                    alternate.touch()
+                    paths, _, _ = discover_files(root, 2003, 2025)
+                    self.assertEqual(paths[name], alternate)
+
     def test_discovery_missing_extra_ambiguity(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
